@@ -1,0 +1,15 @@
+# Site settings
+title: flickr photoset test
+email: tamouse.lists@gmail.com
+description: a quick test of the flickr_photoset plugin
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+markdown: kramdown
+exclude: [README.md, flickr_authtest.rb]
+
+flickr:
+  api_key: <%= ENV['FLICKR_GALLERY_API_KEY'] || '' %>
+  shared_secret: <%= ENV['FLICKR_GALLERY_SHARED_SECRET'] || '' %>
+  access_token: <%= ENV['FLICKR_GALLERY_AUTH_TOKEN'] || '' %>
+  access_secret: <%= ENV['FLICKR_GALLERY_AUTH_SECRET'] || '' %>
+  
