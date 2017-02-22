@@ -8,8 +8,8 @@ markdown: kramdown
 exclude: [README.md, flickr_authtest.rb]
 
 flickr:
-  api_key: <%= ENV['FLICKR_GALLERY_API_KEY'] || '' %>
-  shared_secret: <%= ENV['FLICKR_GALLERY_SHARED_SECRET'] || '' %>
-  access_token: <%= ENV['FLICKR_GALLERY_AUTH_TOKEN'] || '' %>
-  access_secret: <%= ENV['FLICKR_GALLERY_AUTH_SECRET'] || '' %>
+  api_key: <%= ENV['4e6180c6b9950f86ad61195a0ddd5556'] || '' %>
+  shared_secret: <%= ENV['071cf51443eeabe7'] || '' %>
+  access_token: <%= ENV['72157680511989826-677dd85808bb21c4'] || '' %>
+  access_secret: <%= ENV['8e72f68de9251448'] || '' %>
   
