@@ -1,7 +1,7 @@
 ---
 layout: post
 title: new painting
-gallery: 72157647321284300
+gallery: 72157678372390776
 ---
 
 Flickr set: {{page.gallery}}.
